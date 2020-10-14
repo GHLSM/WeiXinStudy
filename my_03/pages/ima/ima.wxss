@@ -1,0 +1,6 @@
+/* pages/ima/ima.wxss */
+.container image{
+  height: 200rpx;
+  width: 200rpx;
+  padding: 5rpx;
+}

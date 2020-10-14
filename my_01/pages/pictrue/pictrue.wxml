@@ -1,0 +1,63 @@
+<!--pages/pictrue/pictrue.wxml-->
+<view>示例一</view>
+<view class="menu-1">
+  <view class="item">
+    <image src="/static/my_pictrue/girl.jpg"></image>
+    <text>图片</text>
+  </view>
+  <view class="item">
+    <image src="/static/my_pictrue/girl.jpg"></image>
+    <text>图片</text>
+  </view>
+  <view class="item">
+    <image src="/static/my_pictrue/girl.jpg"></image>
+    <text>图片</text>
+  </view>
+  <view class="item">
+    <image src="/static/my_pictrue/girl.jpg"></image>
+    <text>图片</text>
+  </view>
+
+</view>
+<!-- <text>span</text>
+<view>
+  div
+</view> -->
+<!-- <image src="/static/my_pictrue/girl.jpg"></image> -->
+
+<view>示例二</view>
+<view class="menu-2">
+  <view class="item">
+    <image src="/static/my_pictrue/girl.jpg"></image>
+  </view>
+  <view class="item">
+    <image src="/static/my_pictrue/girl.jpg"></image>
+  </view>
+  <view class="item">
+    <image src="/static/my_pictrue/girl.jpg"></image>
+  </view>
+  <view class="item">
+    <image src="/static/my_pictrue/girl.jpg"></image>
+  </view>
+</view>
+
+<view>示例三</view>
+<view class="auction">
+  <view class="item">
+    <view class="title">第一次相遇  哈哈哈</view>
+    <view class="tips">
+      <view class="time">2020-01-01</view>
+      <view class="count">多少次见面</view>
+    </view>
+
+    <view class="big_image">
+      <image src="/static/my_pictrue/girl.jpg" ></image>
+    </view>
+    <view class="small_image">
+      <image src="/static/my_pictrue/girl.jpg"></image>
+      <image src="/static/my_pictrue/girl.jpg"></image>
+      <image src="/static/my_pictrue/girl.jpg"></image>
+      <image src="/static/my_pictrue/girl.jpg"></image>
+    </view>
+  </view>
+</view>

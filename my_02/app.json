@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/Mine/mine",
+    "pages/Home/home"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#D4F2E7",
+    "navigationBarTitleText": "我的",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/Mine/mine",
+        "iconPath": "/static/tabbar/Mine_02.png",
+        "selectedIconPath": "/static/tabbar/Mine_01.png"
+      },
+      {
+        "pagePath": "pages/Home/home",
+        "iconPath": "/static/tabbar/home_04.png",
+        "selectedIconPath": "/static/tabbar/home_03.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

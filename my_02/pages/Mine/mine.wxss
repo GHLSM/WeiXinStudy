@@ -1,0 +1,77 @@
+/* pages/Mine/mine.wxss */
+.all{
+  background-color: 	#F0FFFF;
+}
+.top{
+  height: 350rpx;
+  background-color:	#48D1CC;
+  overflow: hidden;
+  border-radius: 40rpx;
+}
+#top_per_msg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 35rpx;
+  margin-bottom: 25rpx;
+}
+
+#top_per_msg .avatar{
+  height: 150rpx;
+  width: 150rpx;
+  overflow: hidden;
+  border-radius: 50%;
+ 
+}
+#top_per_msg .avatar image{
+  height: 100%;
+  width: 100%;
+}
+#login, #reg {
+  font-size: 35rpx;
+  color: white;
+}
+#per_main_page {
+  padding: 20rpx;
+  border-top-left-radius: 30rpx;
+  border-bottom-left-radius: 30rpx;
+  background-color: rgba(192, 192, 192, 0.6);
+  font-size: 30rpx;
+  color: white;
+}
+#per_info {
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#per_info .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.mid{
+  height: 175rpx;
+  background-color: 	#F0F8FF;
+  margin-top: 8rpx;
+  border: 	#40d4d4 10rpx solid;
+  border-radius: 40rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.mid_func{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 130rpx;
+  width: 100rpx;
+  font-size: 30rpx;
+}
+.mid_func image{
+  height: 100%;
+  width: 100%;
+}

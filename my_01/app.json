@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/pictrue/pictrue",
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#F5F5DC",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "石梁F4",
+    "backgroundColor": "#FFEBCD",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/pictrue/pictrue",
+        "iconPath": "static/tabbar/tabbar_01.png",
+        "selectedIconPath": "static/tabbar/tabbar_02.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/tabbar_04.png",
+        "selectedIconPath": "static/tabbar/tabbar_03.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,3 @@
+<!--pages/telLogin/telLogin.wxml-->
+<view>请输入账号：{{msg}}</view>
+<input type="text" placeholder="手机号/邮箱/账号" bindinput="input_msg"></input>

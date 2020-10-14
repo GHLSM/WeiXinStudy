@@ -1,0 +1,5 @@
+<!--pages/index/index.wxml-->
+<text id="d1" class="c1" bindtap="clickMe" data-nid="29" data-name="gh">点击跳转</text>
+<navigator url="/pages/navi/navi">点击我跳转</navigator>
+<navigator url="/pages/data_bind/data_bind">数据获取页面</navigator>
+

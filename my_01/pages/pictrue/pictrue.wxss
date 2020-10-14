@@ -1,0 +1,89 @@
+/* pages/pictrue/pictrue.wxss */
+.menu-1 image, .menu-2 image{
+  width: 100rpx;
+  height: 135rpx;
+  border-radius: 30rpx;
+}
+.menu-1 {
+  display: flex;
+    /* 规定主轴方向 ，一般用row，row-reverse的意思是从右向左排*/
+  flex-direction: row;
+  
+    /* 在主轴方向如何展示 */
+    /* justify-content: center; */
+  justify-content: space-around;
+   /* justify-content: flex-start;  默认状态，靠左排*/
+   /* justify-content: space-between; */
+
+   /* 在副轴上如何排列 */
+  /* align-items: ; */
+
+  /* text-align: center; */
+}
+.menu-1 .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    /* 和上面的text-align: center; 的效果一样 */
+}
+
+.menu-2 {
+  display: flex;
+    /* 规定主轴方向 ，一般用row，row-reverse的意思是从右向左排*/
+  flex-direction: row;
+  
+    /* 在主轴方向如何展示 */
+    /* justify-content: center; */
+  justify-content: space-around;
+   /* justify-content: flex-start;  默认状态，靠左排*/
+   /* justify-content: space-between; */
+
+   /* 在副轴上如何排列 */
+  /* align-items: ; */
+
+  /* text-align: center; */
+}
+.menu-2 .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    /* 和上面的text-align: center; 的效果一样 */
+}
+
+.auction .item .title{
+  font-size: 45rpx;
+  font-weight: 600;
+}
+.auction .item .tips{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.auction .item .tips .time{
+  font-size: 40rpx;
+  color: darkgray;
+}
+
+.auction .item .tips .count{
+  font-size: 30rpx;
+  color: darkgray;
+}
+.big_image{
+  display: flex;
+  height: 400rpx;
+  overflow: hidden;
+  justify-content: center;
+}
+.big_image image{
+  width:100%;
+  height: 200%;
+}
+.small_image {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.small_image image{
+  height: 130rpx;
+  width: 100rpx;
+  padding: 20rpx 10rpx;
+}

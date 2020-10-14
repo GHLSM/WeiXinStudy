@@ -1,0 +1,10 @@
+<!--pages/data_bind/data_bind.wxml-->
+<text>数据绑定</text>
+<view>{{ msg }}</view>
+<button bindtap="changeData">修改数据</button>
+<view>当前用户昵称为：{{ userName }}</view>
+<view>当前用户头像为：<image src="{{ userAvatar }}" style="height:150rpx;width:150rpx"></image></view>
+<!-- <button bindtap="getUserInfo">获取当前用户信息</button> -->
+<button open-type="getUserInfo" bindgetuserinfo="get_user_info">授权登录</button>
+
+<view bindtap="getLocation">{{userLocation}}</view>
